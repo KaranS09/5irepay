@@ -164,7 +164,7 @@ const TransactionCard = ({
                 To: {shortenAddress(addressTo)}
               </p>
             </a>
-            <p className="text-white text-base">Amount: {amount} SHM</p>
+            <p className="text-white text-base">Amount: {amount} 5ire</p>
             {message && (
               <>
                 <br />
@@ -273,9 +273,7 @@ const TransactionCard = ({
                 </div>
               </div>
               <div className="flex justify-center mb-30 mt-10">
-                <p>
-                  This transaction can be verified on Shardeum 1.X explorer.
-                </p>
+                <p>This transaction can be verified on 5ire explorer.</p>
               </div>
             </div>
           </div>

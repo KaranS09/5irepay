@@ -49,7 +49,7 @@ const Welcome = () => {
           <div className="flex flex-1 justify-start flex-col mf:mr-10">
             <h1 className="text-4xl sm:text-4.5xl pl-5 text-white  py-1 mb-4 mt-4">
               {/* bg-gradient-to-r from-violet-600 via-red-500 to-green-400 inline-block text-transparent bg-clip-text */}
-              Send SHM across the world
+              Send 5ire across the world
             </h1>
             <img src={img} alt="img" />
             <p className="text-left mt-5 text-white font-light md:w-12/12 w-12/12 text-lg">
@@ -142,7 +142,7 @@ const Welcome = () => {
               <div className="flex justify-between flex-col w-full h-full">
                 <div className="flex justify-between items-start">
                   <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center">
-                    <img src={img2} alt="img" />
+                    {/* <img src={img2} alt="img" /> */}
                     {/* <SiEthereum fontSize={21} color="#fff"></SiEthereum> */}
                   </div>
                   <BsInfoCircle fontSize={17} color="#fff"></BsInfoCircle>
@@ -153,7 +153,7 @@ const Welcome = () => {
                     {shortenAddress(currentAccount)}
                   </p>
                   <p className="text-white font-semibold text-lg mt-1">
-                    Shardeum
+                    5irepay
                   </p>
                 </div>
               </div>

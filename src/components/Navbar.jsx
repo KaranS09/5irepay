@@ -4,7 +4,7 @@ import { HiMenu, HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { shortenAddress } from "../utils/shortenAddress";
 import { TransactionContext } from "../context/TransactionContext";
-import logo from "../../images/shmicon.png";
+import logo from "../../images/iconed.png";
 
 const NavbarItem = ({ title, classProps }) => {
   return <li className={`mx-4 cursor-pointer ${classProps}`}>{title}</li>;
@@ -29,7 +29,7 @@ const Navbar = () => {
               alt="logo"
               className="w-16 mx-0 rounded-full p-2  my-0 cursor-pointer"
             />
-            Shardpay
+            5irepay
           </span>
         </div>
         <div className="md:flex flex-initial flex-row justify- float-right items-center mt-7 px-5">
